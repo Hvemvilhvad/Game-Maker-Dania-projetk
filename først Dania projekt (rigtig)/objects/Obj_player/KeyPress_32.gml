@@ -10,6 +10,15 @@ if(grounded){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var" "velocity_y"
 	velocity_y = -jump_speed;
 
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 48901BE7
+	/// @DnDParent : 28424A5D
+	/// @DnDArgument : "spriteind" "Player_jump"
+	/// @DnDSaveInfo : "spriteind" "Player_jump"
+	sprite_index = Player_jump;
+	image_index = 0;
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6B713F7D
