@@ -58,3 +58,65 @@ repeat(move_count){	/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDHash : 53D8167C
 		/// @DnDParent : 0CE4711D
 		break;}}
+
+/// @DnDAction : YoYo Games.Common.Temp_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6DDE50FA
+/// @DnDInput : 2
+/// @DnDArgument : "var" "move_count"
+/// @DnDArgument : "value" "abs(velocity_y)"
+/// @DnDArgument : "var_1" "move_amount"
+/// @DnDArgument : "value_1" "sign(velocity_y)"
+var move_count = abs(velocity_y);
+var move_amount = sign(velocity_y);
+
+/// @DnDAction : YoYo Games.Loops.Repeat
+/// @DnDVersion : 1
+/// @DnDHash : 7DF88900
+/// @DnDArgument : "times" "move_count"
+repeat(move_count){	/// @DnDAction : YoYo Games.Common.Function_Call
+	/// @DnDVersion : 1
+	/// @DnDHash : 00855C8D
+	/// @DnDInput : 2
+	/// @DnDApplyTo : all
+	/// @DnDParent : 7DF88900
+	/// @DnDArgument : "var" "collision_found"
+	/// @DnDArgument : "var_temp" "1"
+	/// @DnDArgument : "function" "check_collision"
+	/// @DnDArgument : "arg" "0"
+	/// @DnDArgument : "arg_1" "move_amount"
+	with(all) {
+		var collision_found = check_collision(0, move_amount);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0C610934
+	/// @DnDParent : 7DF88900
+	/// @DnDArgument : "var" "collision_found"
+	/// @DnDArgument : "value" "false"
+	if(collision_found == false){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 2B604354
+		/// @DnDParent : 0C610934
+		/// @DnDArgument : "value" "move_amount"
+		/// @DnDArgument : "value_relative" "1"
+		/// @DnDArgument : "instvar" "1"
+		y += move_amount;}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 60F58786
+	/// @DnDParent : 7DF88900
+	else{	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1F3061A0
+		/// @DnDParent : 60F58786
+		/// @DnDArgument : "var" "velocity_y"
+		velocity_y = 0;
+	
+		/// @DnDAction : YoYo Games.Loops.Break
+		/// @DnDVersion : 1
+		/// @DnDHash : 10DF0BEF
+		/// @DnDParent : 60F58786
+		break;}}
