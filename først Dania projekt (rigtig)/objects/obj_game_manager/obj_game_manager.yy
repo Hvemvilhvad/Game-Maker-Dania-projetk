@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Coin",
+  "%Name":"obj_game_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Coin",
+  "name":"obj_game_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/Environment.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Coin",
-    "path":"sprites/Coin/Coin.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Coin",
+  "%Name":"obj_HUD_background",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Coin",
+  "name":"obj_HUD_background",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/Environment.yy",
+    "name":"HUD",
+    "path":"folders/Objects/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Coin",
-    "path":"sprites/Coin/Coin.yy",
+    "name":"hud_background",
+    "path":"sprites/hud_background/hud_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,

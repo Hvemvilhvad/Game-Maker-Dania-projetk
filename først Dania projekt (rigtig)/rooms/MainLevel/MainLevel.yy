@@ -13,6 +13,7 @@
     {"name":"inst_1930ADB3","path":"rooms/MainLevel/MainLevel.yy",},
     {"name":"inst_75851DF4","path":"rooms/MainLevel/MainLevel.yy",},
     {"name":"inst_5D675632","path":"rooms/MainLevel/MainLevel.yy",},
+    {"name":"inst_3CA7B131","path":"rooms/MainLevel/MainLevel.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,6 +25,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1930ADB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1930ADB3","objectId":{"name":"Obj_Coin","path":"objects/Obj_Coin/Obj_Coin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3520.0,"y":960.0,},
         {"$GMRInstance":"v1","%Name":"inst_75851DF4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75851DF4","objectId":{"name":"Obj_Coin","path":"objects/Obj_Coin/Obj_Coin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3360.0,"y":1536.0,},
         {"$GMRInstance":"v1","%Name":"inst_5D675632","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D675632","objectId":{"name":"Obj_Coin","path":"objects/Obj_Coin/Obj_Coin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":1600.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3CA7B131","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CA7B131","objectId":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.0,"scaleY":9.0,"x":2592.0,"y":896.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"CollisionTiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"CollisionTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":40,"TileCompressedData":[
           -346,-2147483648,4,31,32,32,33,-34,-2147483648,1,34,-36,-2147483648,1,11,-39,-2147483648,3,35,-2147483648,
