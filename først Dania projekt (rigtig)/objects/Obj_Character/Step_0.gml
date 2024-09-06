@@ -16,9 +16,14 @@
 var move_count = abs(velocity_x);
 var move_amount = sign(velocity_x);
 
-/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
-/// @DnDHash : 52D795DB
-/// @DnDArgument : "value" "Movement_Speed"
-/// @DnDArgument : "value_relative" "1"
-x += Movement_Speed;
+/// @DnDHash : 6832B73D
+/// @DnDArgument : "times" "move_count"
+repeat(move_count){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+	/// @DnDVersion : 1
+	/// @DnDHash : 52D795DB
+	/// @DnDParent : 6832B73D
+	/// @DnDArgument : "value" "move_amount"
+	/// @DnDArgument : "value_relative" "1"
+	x += move_amount;}
